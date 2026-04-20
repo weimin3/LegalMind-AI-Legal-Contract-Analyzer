@@ -128,3 +128,4 @@ chat_history/
 
 # Logs
 *.log
+chroma_db
