@@ -1,7 +1,7 @@
 # LegalMind: AI Legal Contract Analyzer
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red.svg)](https://streamlit.io/)
 
 LegalMind is an AI-powered web application designed to simplify legal contract analysis. Upload PDF or TXT contract files, receive automatic structured summaries highlighting key parties, obligations, risks, and more, and engage in interactive Q&A conversations about the contract content. Built with local AI models for privacy and efficiency.
@@ -41,10 +41,6 @@ LegalMind is an AI-powered web application designed to simplify legal contract a
 ### Steps
 
 1. **Clone the repository:**
-   ```bash
-   git clone <your-repo-url>
-   cd LegalMind-AI-Legal-Contract-Analyzer
-   ```
 
 2. **Create and activate virtual environment:**
    ```bash
@@ -97,7 +93,7 @@ LegalMind-AI-Legal-Contract-Analyzer/
 ├── file_history_store.py     # Chat history management
 ├── md5_util.py              # MD5 hashing utilities
 ├── md5.text                 # MD5 hash storage
-├── data/                    # Sample contract files([Contract Understanding Atticus Dataset](https://www.atticusprojectai.org/cuad))
+├── data/                    # Sample contract files(Contract Understanding Atticus Dataset:(https://www.atticusprojectai.org/cuad))
 ├── chroma_db/               # ChromaDB vector database storage
 ├── chat_history/            # Chat conversation history
 └── README.md                # This file
